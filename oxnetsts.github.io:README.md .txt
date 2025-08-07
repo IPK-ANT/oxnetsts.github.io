@@ -1,0 +1,14 @@
+# OxNet STS Website
+
+**Live site:** https://oxnetsts.github.io
+
+## How to update content
+- **Events** → edit or add Markdown files in `content/events/YYYY-MM-DD-title.md`
+- **Posts** → add Markdown in `content/posts/`
+- Then commit & push; GitHub Pages updates automatically.
+
+## Need bigger changes?
+Copy your original prompt + new instructions back into the same LLM and regenerate the site.
+
+## Local preview
+Simply open any `.html` file in your browser – no build step.

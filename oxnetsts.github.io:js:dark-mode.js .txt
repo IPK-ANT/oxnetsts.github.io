@@ -1,0 +1,10 @@
+const toggle = document.getElementById('theme-toggle');
+const stored = localStorage.getItem('theme');
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+if (stored ? stored === 'dark' : prefersDark) document.documentElement.setAttribute('data-theme', 'dark');
+
+toggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', current);
+  localStorage.setItem('theme', current);
+});

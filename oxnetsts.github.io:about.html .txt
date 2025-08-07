@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>About – OxNet STS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="icon" href="images/logo.svg"/>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <a class="logo" href="/">OxNet STS</a>
+        <nav>
+          <a href="/about.html">About</a>
+          <a href="/events.html">Events</a>
+          <a href="/people.html">People</a>
+          <a href="/themes.html">Themes</a>
+          <a href="/resources.html">Resources</a>
+          <a href="/contact.html">Contact</a>
+          <button id="theme-toggle">🌗</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrapper prose">
+      <h1>About OxNet STS</h1>
+      <p>OxNet STS is an open network connecting researchers, students, and practitioners interested in Science & Technology Studies across the University of Oxford and beyond.</p>
+
+      <h2>Our Mission</h2>
+      <ul>
+        <li>Foster interdisciplinary dialogue between STEM, social sciences, and humanities.</li>
+        <li>Showcase Oxford STS research to wider academic, policy, and public audiences.</li>
+        <li>Provide a platform for events, workshops, and collaborative grants.</li>
+      </ul>
+
+      <h2>Who We Are</h2>
+      <p>OxNet is run by a volunteer steering group drawn from departments including the School of Anthropology, Geography, History of Science, Sociology, and the Oxford Internet Institute.</p>
+    </main>
+
+    <footer>
+      <p>© 2025 OxNet STS</p>
+    </footer>
+
+    <script src="js/dark-mode.js"></script>
+  </body>
+</html>
