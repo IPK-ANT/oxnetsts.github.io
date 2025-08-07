@@ -1,0 +1,38 @@
+:root {
+  --bg: #fefefe;
+  --text: #111827;
+  --accent: #2563eb;
+  --accent2: #f59e0b;
+  --font: 'Inter', system-ui, sans-serif;
+}
+
+[data-theme="dark"] {
+  --bg: #111827;
+  --text: #f3f4f6;
+  --accent: #3b82f6;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background .3s, color .3s;
+}
+
+.wrapper { max-width: 900px; margin: 0 auto; padding: 0 1rem; }
+header { border-bottom: 1px solid #e5e7eb; padding: 1rem 0; }
+.logo { font-size: 1.5rem; font-weight: 700; letter-spacing: -.02em; }
+nav { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+nav a { text-decoration: none; color: var(--text); }
+nav a:hover { color: var(--accent); }
+.hero { padding: 3rem 0; text-align: center; }
+.hero h1 { font-size: 2.25rem; margin-bottom: .5rem; }
+.cta { display: inline-block; background: var(--accent); color: #fff; padding: .75rem 1.5rem; border-radius: 4px; margin-top: 1rem; }
+.cards { padding: 2rem 0; }
+.cards h2 { margin-bottom: 1rem; }
+.card { border: 1px solid #e5e7eb; border-radius: 6px; padding: 1rem; margin-bottom: 1rem; }
+footer { text-align: center; padding: 2rem 0; font-size: .875rem; color: #6b7280; }
+.prose h1, .prose h2 { margin: 1.5rem 0 .5rem; }
+.prose ul { margin-left: 1.25rem; }
+#theme-toggle { background: none; border: none; font-size: 1.25rem; cursor: pointer; }
